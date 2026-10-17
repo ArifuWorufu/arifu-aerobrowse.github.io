@@ -3,8 +3,23 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#63d7ed">
+<meta name="theme-color" content="#102c50">
 <title>AeroBrowse — Frutiger Aero Start Page</title>
+<meta name="description" content="A glossy Frutiger Aero-inspired web oasis by Rifu. Search the web, save bookmarks, explore glassy widgets, and chill to the aqua atmosphere.">
+<link rel="canonical" href="https://arifuworufu.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AeroBrowse">
+<meta property="og:title" content="AeroBrowse 🌊 — Your Frutiger Aero Oasis">
+<meta property="og:description" content="A glossy aqua web oasis by Rifu ✦ Search, explore, and drift into the Frutiger Aero future.">
+<meta property="og:url" content="https://arifuworufu.github.io/">
+<meta property="og:image" content="https://arifuworufu.github.io/preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="AeroBrowse — a glossy aqua Frutiger Aero ocean desktop by Rifu">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AeroBrowse 🌊 — Your Frutiger Aero Oasis">
+<meta name="twitter:description" content="A glossy aqua web oasis by Rifu ✦ Search, explore, and drift into the Frutiger Aero future.">
+<meta name="twitter:image" content="https://arifuworufu.github.io/preview.png">
 <style>
 :root{--sky:#a4f2f7;--aqua:#4ac9e5;--blue:#0587be;--deep:#075d88;--ink:#124d6c;--glass:rgba(247,255,255,.63);--edge:rgba(255,255,255,.94);--shadow:0 16px 38px rgba(0,91,142,.19);--wallpaper:linear-gradient(160deg,#baf8f7 0%,#55d3e8 46%,#087cb8 100%)}
 *{box-sizing:border-box}html{min-height:100%;scroll-behavior:smooth}body{margin:0;min-height:100vh;font-family:Verdana,"Trebuchet MS",sans-serif;color:var(--ink);background:var(--wallpaper);overflow-x:hidden}button,input,select{font:inherit}button{cursor:pointer;color:inherit}button:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible{outline:3px solid #fff;outline-offset:3px}a{color:inherit}.backdrop{position:fixed;inset:0;z-index:-2;overflow:hidden;background:var(--wallpaper)}.sun{position:absolute;width:min(68vw,850px);height:min(68vw,850px);right:-10vw;top:-34vw;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.94),rgba(222,255,255,.52) 26%,transparent 67%)}.sea{position:absolute;left:-10%;right:-10%;bottom:-37%;height:74%;border-radius:50% 50% 0 0/18% 18% 0 0;background:linear-gradient(180deg,rgba(198,255,241,.68),rgba(39,183,204,.7) 35%,rgba(0,92,169,.96));box-shadow:inset 0 20px 60px rgba(255,255,255,.4)}.hill{position:absolute;bottom:-39%;width:85%;height:56%;border-radius:50%;filter:blur(1px)}.hill.a{left:-20%;background:linear-gradient(150deg,rgba(200,255,165,.9),rgba(50,188,143,.5),transparent);transform:rotate(-9deg)}.hill.b{right:-24%;bottom:-43%;background:linear-gradient(180deg,rgba(119,246,211,.72),rgba(9,147,192,.45),transparent);transform:rotate(8deg)}#bubbles{position:fixed;inset:0;z-index:-1;overflow:hidden;pointer-events:none}.bubble{position:absolute;bottom:-70px;left:var(--x);width:var(--s);height:var(--s);border:1px solid rgba(255,255,255,.8);border-radius:50%;background:radial-gradient(circle at 28% 24%,rgba(255,255,255,.92),rgba(255,255,255,.18) 32%,rgba(95,229,245,.08) 75%);box-shadow:inset -3px -5px 10px #ffffff30,0 0 16px #ffffff20;animation:rise var(--d) linear var(--delay) infinite}@keyframes rise{to{transform:translate(var(--drift),-120vh);opacity:0}}@keyframes cloudmove{from{transform:translateX(-300px)}to{transform:translateX(calc(100vw + 400px))}}@keyframes bob{50%{transform:translateY(-6px)}}.cloud{position:absolute;width:180px;height:48px;border-radius:99px;background:#fff9;filter:blur(1px);animation:cloudmove 42s linear infinite}.cloud:before,.cloud:after{content:"";position:absolute;bottom:10px;border-radius:50%;background:inherit}.cloud:before{width:68px;height:68px;left:28px}.cloud:after{width:90px;height:90px;left:78px;bottom:2px}.cloud.one{top:18%;left:0}.cloud.two{top:40%;animation-delay:-21s;opacity:.35;transform:scale(.65)}body.reduce-motion *,body.reduce-motion *:before,body.reduce-motion *:after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important}
@@ -59,6 +74,10 @@ body.reduce-motion .site,body.reduce-motion .panel,body.reduce-motion .music-car
 @media(max-width:560px){.aero-effects .panelhead{align-items:flex-start}.fx-live{font-size:.58rem}.fx-buttons .btn{flex:1 1 calc(50% - 8px)}.mini-reef{height:135px}.reef-fish{font-size:1.55rem}.fish-one{left:18%;top:56px}.fish-two{left:45%;top:79px}.fish-three{right:10%;top:52px}.reef-title{display:grid;gap:3px}}
 
 @media(max-width:850px){.sites{grid-template-columns:repeat(3,minmax(0,1fr))}.columns{grid-template-columns:1fr}.preview-frame{height:350px}.hero{padding-top:19px}}@media(max-width:560px){.brand span:last-child{font-size:.88rem}.topbar{padding:9px 12px}.clock{font-size:.76rem}.topright .pill{padding:7px 10px;font-size:.76rem}.wrap{width:92vw;padding-top:17px}.searchrow{flex-wrap:wrap}.searchicon{display:none}.searchrow input{flex-basis:100%;padding:11px 9px}.searchrow select{flex:1;max-width:none}.searchrow button{flex:1}.sites{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.site{min-height:110px;padding:12px}.heading{margin-top:24px}.manage-form{grid-template-columns:1fr}.preview-frame{height:300px}.hero h1{font-size:clamp(2.5rem,15vw,4rem)}}
+/* Keep the main Search button in sync with the selected day/night theme. */
+body.night .searchrow button{background:linear-gradient(145deg,#286185,#174464);color:#efffff;border-color:#a8f2ff;box-shadow:inset 0 1px #d5fbff55,0 4px 10px #00172d70}
+body.night .searchrow button:hover{background:linear-gradient(145deg,#347ca4,#205778);filter:brightness(1.08)}
+body.night .searchrow .clear-search{background:linear-gradient(145deg,#286185,#174464);color:#efffff;border-color:#a8f2ff}
 </style>
 </head>
 <body>
@@ -181,8 +200,8 @@ $('#bookmarkPreview').addEventListener('click',()=>{const url=$('#openExternal')
 $('#previewHome').addEventListener('click',()=>{const frame=$('#previewFrame');frame.src='about:blank';frame.classList.add('hidden');$('#previewEmpty').classList.remove('hidden');$('#previewTitle').textContent='Ready when you are';$('#openExternal').disabled=true;$('#reloadPreview').disabled=true;$('#bookmarkPreview').disabled=true;delete $('#openExternal').dataset.url;$('#previewUrl').value='';toast('Back to the AeroBrowse start panel.')});
 function applyTheme(on){document.body.classList.toggle('night',on);$('#themeToggle').textContent=on?'☀️ Day mode':'🌙 Night mode';$('#themeToggle').setAttribute('aria-pressed',String(on))}
 function applyMotion(on){document.body.classList.toggle('reduce-motion',on);$('#motionToggle').textContent=on?'〰 Motion reduced':'〰 Reduce motion';$('#motionToggle').setAttribute('aria-pressed',String(on))}
-try{applyTheme(localStorage.getItem('aerobrowse.night')==='1');applyMotion(localStorage.getItem('aerobrowse.reduceMotion')==='1')}catch{}
-$('#themeToggle').addEventListener('click',()=>{const on=document.body.classList.toggle('night');applyTheme(on);try{localStorage.setItem('aerobrowse.night',on?'1':'0')}catch{}});
+try{const savedNight=localStorage.getItem('aerobrowse.night.v2');applyTheme(savedNight===null?true:savedNight==='1');applyMotion(localStorage.getItem('aerobrowse.reduceMotion')==='1')}catch{applyTheme(true);applyMotion(false)}
+$('#themeToggle').addEventListener('click',()=>{const on=document.body.classList.toggle('night');applyTheme(on);try{localStorage.setItem('aerobrowse.night.v2',on?'1':'0')}catch{}});
 
 $('#motionToggle').addEventListener('click',()=>{const on=document.body.classList.toggle('reduce-motion');applyMotion(on);try{localStorage.setItem('aerobrowse.reduceMotion',on?'1':'0')}catch{}toast(on?'Motion reduced.':'Animations restored.')});
 
